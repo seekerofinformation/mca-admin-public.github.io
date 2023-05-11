@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  .list {
+    width: 100%;
+
+
+    &_item {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 24px;
+      margin-bottom: 24px;
+      border-bottom: 1px solid #000000;
+
+      &_title {
+        font-size: 24px;
+        line-height: 30px;
+      }
+
+      &_func {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 140px;
+
+        &__img {
+          width: 24px;
+          height: 24px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .addButton {
+    margin-top: 14px;
+    margin-bottom: 24px;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 180px;
+  }
+}

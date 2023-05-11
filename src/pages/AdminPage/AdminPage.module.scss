@@ -1,0 +1,231 @@
+.container {
+
+  &_buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 360px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-top: 24px;
+    margin-bottom: 40px;
+
+    &_btn {
+      cursor: pointer;
+      width: 180px;
+      padding: 10px 20px;
+      text-align: center;
+
+      &__activeLeft {
+        background: #0D4EDB;
+        color: #FFFFFF;
+        border-radius: 10px 0px 0px 10px;
+      }
+
+      &__activeRight {
+        background: #0D4EDB;
+        color: #FFFFFF;
+        border-radius: 0px 10px 10px 0px;
+      }
+    }
+  }
+
+  .profile {
+    margin-top: 24px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    &_containerImg {
+      background-color: #FFFFFF;
+      border: 1px solid #A2A2A2;
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      margin-bottom: 24px;
+    }
+
+    &_content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 24px;
+
+      &_container {
+
+        &__input {
+          padding: 4px 4px;
+          border-radius: 10px;
+          border: none;
+        }
+
+        &__button {
+          padding: 4px 4px;
+          border-radius: 6px;
+          border: 1px solid #0D4EDB;
+          color: #0D4EDB;
+          font-size: 12px;
+          cursor: pointer;
+          background-color: #FFFFFF;
+        }
+      }
+
+      &_edit {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 18px;
+
+        :nth-child(n) {
+          margin-right: 10px;
+        }
+
+        img {
+          width: 18px;
+          height: 18px;
+          cursor: pointer;
+        }
+      }
+
+      &_admin {
+        color: #9B9B9B;
+      }
+
+      &_name {
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 1.1px;
+      }
+    }
+  }
+
+  .admin {
+
+    &_title {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 24px;
+
+      &_name {
+        font-size: 24px;
+        line-height: 20px;
+      }
+
+      &_button {
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 20px;
+      }
+    }
+
+    .table {
+      width: 100%;
+      margin-bottom: 60px;
+
+      &_row {
+        padding: 12px 0px;
+        border-bottom: 0.5px solid #A2A2A2;
+
+        :first-child {
+          padding-right: 24px;
+        }
+        :not(:first-child) {
+          padding-right: 16px;
+          width: auto;
+        }
+
+
+
+      }
+
+      &_container {
+        margin: 20px 0px;
+        display: flex;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        padding: 20px;
+
+        &_edit {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+          width: 250px;
+          margin-top: 10px;
+
+          &__title {
+            font-weight: 500;
+          }
+
+          &__input {
+            border: 1px solid #0D4EDB;
+            border-radius: 10px;
+            padding: 8px;
+          }
+
+          &__save {
+            background-color: #0D4EDB;
+            color: #FFFFFF;
+            padding: 8px;
+            border-radius: 10px;
+            cursor: pointer;
+          }
+
+          &__cancel {
+            color: #0D4EDB;
+            border: 1px solid #0D4EDB;
+            padding: 8px;
+            border-radius: 10px;
+            cursor: pointer;
+          }
+        }
+      }
+
+      &_edit {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        background-image: url('../../images//icons//edit.svg');
+        background-size: 20px 20px;
+        background-repeat: no-repeat;
+        background-position: center center;
+
+      }
+
+      &_delete {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        background-image: url('../../images//icons//delete.svg');
+        background-size: 20px 20px;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+
+      &_column {
+        font-weight: 300;
+        font-size: 16px;
+        text-align: left;
+        padding: 12px 0px;
+        border-bottom: 0.5px solid #A2A2A2;
+        overflow: hidden;
+
+        &_input {
+          padding: 5px;
+          border-radius: 10px;
+          border: 1px solid #0D4EDB;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,110 @@
+.edit {
+  margin-top: 80px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &_container {
+    width: 350px;
+
+    &:first-child {
+      margin-bottom: 24px;
+      border: 0;
+    }
+
+
+    &_title {
+      text-align: center;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 20px;
+      margin-bottom: 16px;
+    }
+
+    &_description {
+      text-align: center;
+
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      margin-bottom: 16px;
+    }
+
+    &_radio{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      &_group{
+        margin-right: 24px;
+
+        input {
+          margin-right: 16px;
+        }
+
+        label{
+          color: #A2A2A2;
+          font-size:15px;
+          vertical-align: 1px;
+        }
+      }
+    }
+
+    &_data {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 24px;
+      position: relative;
+
+      &_inputField {
+        width: 100%;
+        border: none;
+        border-radius: 10px;
+        background-color: #F6F6F6;
+        max-width: 90%;
+        height: 40px;
+        padding-right: 22px;
+        font-size: 16px;
+        overflow: hidden;
+      }
+
+      label{
+        position: absolute;
+        right: 10px;
+        font-size: 10px;
+        color: #9B9B9B;
+      }
+    }
+
+  }
+
+  &_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12px;
+
+    &_add {
+      background: #0D4EDB;
+      box-shadow: 0px 4px 12px rgba(11, 53, 145, 0.12);
+      border-radius: 10px;
+      color: #FFFFFF;
+      font-weight: 500;
+      padding: 10px 70px;
+      cursor: pointer;
+      width: 315px;
+      text-align: center;
+      border: none;
+      margin-top: 40px;
+
+      &:disabled {
+        opacity: 0.5;
+      }
+    }
+  }
+
+}

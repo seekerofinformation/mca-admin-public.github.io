@@ -1,0 +1,21 @@
+.question {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  &_input {
+    width: 780px;
+    margin-right: 50px;
+  }
+
+  &_select {
+    width: 250px;
+    background-color: #F6F6F6;
+    margin-top: 24px;
+    border-radius: 10px;
+    border: 0.7px solid #F6F6F6;
+
+  }
+
+}

@@ -1,0 +1,14 @@
+{
+  "titles": [
+    {
+      "id": 1,
+      "language": "EN",
+      "text": "ENG FAQ Title"
+    },
+    {
+      "id": 2,
+      "language": "UA",
+      "text": "UA FAQ Title"
+    }
+  ]
+}

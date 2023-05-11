@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  .list {
+    margin-top: 24px;
+    width: 100%;
+
+    &_container {
+      width: 100%;
+      min-height: 104px;
+      background-color: #FFFFFF;
+      border-radius: 10px;
+      padding: 24px;
+      margin-bottom: 24px;
+    }
+
+    &_item {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+
+      &_title {
+        width: 86%;
+        font-size: 24px;
+        line-height: 20px;
+
+        &__desc {
+          margin-top: 12px;
+        }
+      }
+
+      &_func {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 140px;
+
+        &__img {
+          width: 24px;
+          height: 24px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .addButton {
+    margin-top: 14px;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 210px;
+  }
+}

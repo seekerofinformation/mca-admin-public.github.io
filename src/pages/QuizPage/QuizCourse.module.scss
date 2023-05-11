@@ -1,0 +1,68 @@
+.container {
+
+  &_func {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px 0px;
+
+    &_add {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      width: 350px;
+    }
+  }
+
+  &_navigation {
+    margin: 24px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-between;
+    width: max-content;
+
+    &_prev {
+      color: #A2A2A2;
+      cursor: pointer;
+    }
+
+    &_arrow {
+      width: 16px;
+    }
+
+    &__active {
+      cursor: pointer;
+    }
+  }
+
+  .addQuiz {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 24px;
+
+    &_btn {
+      cursor: pointer;
+      border: none;
+      background-color: transparent;
+      font-size: 18px;
+      margin-right: 12px;
+
+      &:disabled {
+        opacity: 0.5;
+        cursor: unset;
+      }
+    }
+  }
+}
+
+.disabled {
+  color: #A2A2A2;
+  cursor: unset!important;
+}

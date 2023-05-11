@@ -1,0 +1,29 @@
+{
+  "id": 1,
+  "language": "en_ua",
+  "titles": [
+    {
+      "id": 1,
+      "language": "EN",
+      "text": "ENG FAQ Title"
+    },
+    {
+      "id": 2,
+      "language": "UA",
+      "text": "UA FAQ Title"
+    }
+  ],
+  "text": [
+    {
+      "id": 1,
+      "language": "EN",
+      "text": "ENG FAQ Text"
+    },
+    {
+      "id": 2,
+      "language": "UA",
+      "text": "UA FAQ Text"
+    }
+  ],
+  "index": 0
+}

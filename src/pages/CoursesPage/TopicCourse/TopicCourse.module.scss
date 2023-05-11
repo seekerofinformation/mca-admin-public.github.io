@@ -1,0 +1,101 @@
+.container {
+
+
+  &_func {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+  }
+
+  &_navigation {
+    margin: 24px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-between;
+    width: max-content;
+
+    &_prev {
+      color: #A2A2A2;
+      cursor: pointer;
+    }
+
+    &_arrow {
+      width: 16px;
+    }
+
+    &__active {
+      cursor: pointer;
+    }
+  }
+
+
+  .addTopic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+
+    &_btn {
+      cursor: pointer;
+      border: none;
+      background-color: transparent;
+      font-size: 18px;
+      font-weight: 500;
+      margin-right: 12px;
+
+      &:disabled {
+        opacity: 0.5;
+      }
+    }
+  }
+
+  .list {
+    margin-top: 24px;
+
+    &_item {
+      padding: 24px 20px;
+      background: #FFFFFF;
+      border-radius: 10px;
+      margin-bottom: 24px;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+
+      &_name {
+        max-width: 90%;
+
+        &__title {
+          font-size: 20px;
+          margin-bottom: 16px;
+        }
+
+        &__desc {
+          color: #A2A2A2;
+          margin-bottom: 10px;
+        }
+      }
+
+
+      &_func {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 52px;
+
+        &__img {
+          width: 20px;
+          height: 20px;
+          cursor: pointer;
+        }
+      }
+    }
+
+  }
+
+}

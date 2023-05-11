@@ -1,0 +1,97 @@
+{
+  "id": 1,
+  "titles": [
+    {
+      "id": 1,
+      "language": "EN",
+      "text": "ENG Topic Title"
+    },
+    {
+      "id": 2,
+      "language": "UA",
+      "text": "UA Topic Title"
+    }
+  ],
+  "isFree": false,
+  "lessons": [
+    {
+      "id": 1,
+      "titles": [
+        {
+          "id": 1,
+          "language": "EN",
+          "text": "ENG Lesson Title"
+        },
+        {
+          "id": 2,
+          "language": "UA",
+          "text": "UA Lesson Title"
+        }
+      ],
+      "quiz": [
+        {
+          "id": 1,
+          "titles": [
+            {
+              "id": 1,
+              "language": "EN",
+              "text": "ENG Quiz Title"
+            },
+            {
+              "id": 2,
+              "language": "UA",
+              "text": "UA Quiz Title"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "titles": [
+            {
+              "id": 1,
+              "language": "EN",
+              "text": "ENG Quiz Title 2"
+            },
+            {
+              "id": 2,
+              "language": "UA",
+              "text": "UA Quiz Title 2"
+            }
+          ]
+        },
+      ]
+    },
+    {
+      "id": 2,
+      "titles": [
+        {
+          "id": 1,
+          "language": "EN",
+          "text": "ENG Lesson Title 2"
+        },
+        {
+          "id": 2,
+          "language": "UA",
+          "text": "UA Lesson Title 2"
+        }
+      ],
+      "quiz": [
+        {
+          "id": 1,
+          "titles": [
+            {
+              "id": 1,
+              "language": "EN",
+              "text": "ENG Quiz Title"
+            },
+            {
+              "id": 2,
+              "language": "UA",
+              "text": "UA Quiz Title"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

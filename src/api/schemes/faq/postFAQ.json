@@ -1,0 +1,15 @@
+{
+  "language": "en",
+  "titles": [
+    {
+      "language": "EN",
+      "text": "ENG FAQ Title"
+    }
+  ],
+  "text": [
+    {
+      "language": "EN",
+      "text": "ENG FAQ Text"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "postQuiz": {
+    "titles": [
+      {
+        "language": "en",
+        "text": "enG FAQ Title"
+      },
+      {
+        "language": "ua",
+        "text": "ua FAQ Title"
+      }
+    ],
+    "lesson": 1
+  },
+  "patchQuiz1": {
+    "titles": [
+      {
+        "language": "en",
+        "text": "New enG FAQ Title"
+      },
+      {
+        "language": "ua",
+        "text": "New ua FAQ Title"
+      }
+    ],
+    "lesson": 10
+  },
+  "deleteQuiz1": 1
+}

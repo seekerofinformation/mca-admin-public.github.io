@@ -1,0 +1,32 @@
+.container {
+
+  &_navigation {
+    margin: 24px 0px;
+  }
+
+  &_content {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 24px 20px 40px 20px;
+    width: 800px;
+    margin-bottom: 24px;
+
+    &_title {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+
+  &_button {
+    max-width: 260px;
+
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

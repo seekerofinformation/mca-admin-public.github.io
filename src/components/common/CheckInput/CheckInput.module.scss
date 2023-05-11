@@ -1,0 +1,22 @@
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 24px;
+
+  &_container {
+    margin-right: 24px;
+    display: flex;
+    align-items: center;
+
+    &__input {
+      margin-right: 8px;
+    }
+
+    &__label {
+      font-size: 14px;
+    }
+
+  }
+}

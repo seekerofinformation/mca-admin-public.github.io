@@ -1,0 +1,195 @@
+{
+  "postQuestionSingleType": {
+    "titles": [
+      {
+        "language": "EN",
+        "text": "ENG Question Title"
+      },
+      {
+        "language": "UA",
+        "text": "UA Question Title"
+      }
+    ],
+    "type": "single",
+    "answers": [
+      {
+        "titles": [
+          {
+            "language": "EN",
+            "text": "ENG Answer Title"
+          },
+          {
+            "language": "UA",
+            "text": "UA Answer Title"
+          }
+        ],
+        "correct": true
+      },
+      {
+        "titles": [
+          {
+            "language": "EN",
+            "text": "ENG Answer Title"
+          },
+          {
+            "language": "UA",
+            "text": "UA Answer Title"
+          }
+        ],
+        "correct": false
+      },
+      {
+        "titles": [
+          {
+            "language": "EN",
+            "text": "ENG Answer Title"
+          },
+          {
+            "language": "UA",
+            "text": "UA Answer Title"
+          }
+        ],
+        "correct": false
+      }
+    ]
+  },
+  "postQuestionMultipleType": {
+    "titles": [
+      {
+        "language": "EN",
+        "text": "ENG Question Title"
+      },
+      {
+        "language": "UA",
+        "text": "UA Question Title"
+      }
+    ],
+    "type": "multiple",
+    "answers": [
+      {
+        "titles": [
+          {
+            "language": "EN",
+            "text": "ENG Answer Title"
+          },
+          {
+            "language": "UA",
+            "text": "UA Answer Title"
+          }
+        ],
+        "correct": true
+      },
+      {
+        "titles": [
+          {
+            "language": "EN",
+            "text": "ENG Answer Title"
+          },
+          {
+            "language": "UA",
+            "text": "UA Answer Title"
+          }
+        ],
+        "correct": false
+      },
+      {
+        "titles": [
+          {
+            "language": "EN",
+            "text": "ENG Answer Title"
+          },
+          {
+            "language": "UA",
+            "text": "UA Answer Title"
+          }
+        ],
+        "correct": true
+      }
+    ]
+  },
+  "postQuestionOpenType": {
+    "titles": [
+      {
+        "language": "EN",
+        "text": "ENG Question Title"
+      },
+      {
+        "language": "UA",
+        "text": "UA Question Title"
+      }
+    ],
+    "type": "open",
+    "answers": [
+      {
+        "titles": [
+          {
+            "language": "EN",
+            "text": "ENG Answer Title"
+          },
+          {
+            "language": "UA",
+            "text": "UA Answer Title"
+          }
+        ],
+        "correct": null
+      }
+    ]
+  },
+  "patchQuestion1TitlesExample": {
+    "titles": [
+      {
+        "language": "EN",
+        "text": "New ENG Question Title"
+      },
+      {
+        "language": "UA",
+        "text": "New UA Question Title"
+      }
+    ]
+  },
+  "patchQuestion1AnswersExample": {
+    "answers": [
+      {
+        "titles": [
+          {
+            "language": "EN",
+            "text": "New ENG Answer Title"
+          },
+          {
+            "language": "UA",
+            "text": "New UA Answer Title"
+          }
+        ],
+        "correct": false
+      },
+      {
+        "titles": [
+          {
+            "language": "EN",
+            "text": "ENG Answer Title"
+          },
+          {
+            "language": "UA",
+            "text": "UA Answer Title"
+          }
+        ],
+        "correct": true
+      },
+      {
+        "titles": [
+          {
+            "language": "EN",
+            "text": "ENG Answer Title"
+          },
+          {
+            "language": "UA",
+            "text": "UA Answer Title"
+          }
+        ],
+        "correct": false
+      }
+    ]
+
+  },
+  "deleteQuestion": 1
+}

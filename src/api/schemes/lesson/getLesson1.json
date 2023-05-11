@@ -1,0 +1,31 @@
+{
+  "id": 1,
+  "titles": [
+    {
+      "id": 1,
+      "language": "EN",
+      "text": "ENG Lesson Title"
+    },
+    {
+      "id": 2,
+      "language": "UA",
+      "text": "UA Lesson Title"
+    }
+  ],
+  "lessonParts": [
+    {
+      "id": 1,
+      "engContent": ["Lorem ipsum dolor", "Lorem ipsum dolor"],
+      "ukrContent": ["Lorem ipsum dolor UKR", "Lorem ipsum dolor UKR"],
+      "file": "image.png",
+      "filetype": "image/png"
+    },
+    {
+      "id": 2,
+      "engContent": ["Lorem ipsum dolor", "Lorem ipsum dolor"],
+      "ukrContent": ["Lorem ipsum dolor UKR", "Lorem ipsum dolor UKR"],
+      "file": "image.png",
+      "filetype": "image/png"
+    },
+  ]
+}

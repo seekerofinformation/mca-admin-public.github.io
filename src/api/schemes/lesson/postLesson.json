@@ -1,0 +1,13 @@
+{
+  "titles": [
+    {
+      "language": "EN",
+      "text": "ENG FAQ Title"
+    },
+    {
+      "language": "UA",
+      "text": "UA FAQ Title"
+    }
+  ],
+  "quiz": null
+}

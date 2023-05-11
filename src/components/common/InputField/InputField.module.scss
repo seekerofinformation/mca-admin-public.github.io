@@ -1,0 +1,26 @@
+.container {
+
+  .inputs {
+      margin-top: 24px;
+      margin-bottom: 24px;
+      width: 100%;
+
+      &_data {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        position: relative;
+        margin-bottom: 12px;
+      }
+
+
+      label {
+        font-size: 10px;
+        color: #A2A2A2;
+        position: absolute;
+        right: 10px;
+        top: 14px;
+      }
+
+    }
+}

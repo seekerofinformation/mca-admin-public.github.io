@@ -1,0 +1,123 @@
+.container {
+
+  .name {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    margin-bottom: 24px;
+    width: 755px;
+
+    &_title {
+      font-size: 16px;
+      line-height: 20px;
+      font-style: normal;
+      margin-top: 16px;
+    }
+
+    &_container {
+      display: flex;
+      flex-direction: column;
+
+      &_row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+      }
+
+      input {
+        padding: 0px 16px;
+        width: 100%;
+      }
+
+      .error {
+        font-size: 12px;
+        color: red;
+        margin-left: 80px;
+        margin-top: 4px;
+      }
+
+      .counter {
+        position: absolute;
+        left: 730px;
+        top: 12px;
+        color: #A2A2A2;
+        font-size: 12px;
+      }
+    }
+  }
+
+  .content {
+    margin-bottom: 24px;
+
+    &_title {
+      margin-bottom: 16px;
+    }
+
+    &_select {
+      width: 755px;
+    }
+  }
+
+  .price {
+    margin-bottom: 24px;
+
+    .error {
+      font-size: 12px;
+      color: red;
+      margin-top: 4px;
+    }
+
+    &_title {
+      margin-bottom: 16px;
+    }
+
+    &_container {
+      row-gap: 24px;
+      max-width: 480px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      &_dropdown {
+        width: 120px;
+      }
+    }
+  }
+
+  .button {
+    padding: 10px 70px;
+    width: 260px;
+    background: #0D4EDB;
+    box-shadow: 0px 4px 12px rgba(11, 53, 145, 0.12);
+    border-radius: 10px;
+    font-weight: 500;
+    border: none;
+    color: #FFFFFF;
+    margin: 16px 0px;
+    cursor: pointer;
+
+    &:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+  }
+
+  .input {
+    border: none;
+    min-width: 338px;
+    max-width: 680px;
+    height: 40px;
+    padding: 0 12px;
+    font-size: 16px;
+    border-radius: 10px;
+
+    &::-webkit-inner-spin-button,
+    &::-webkit-outer-spin-button {
+      margin: 0;
+      display: none;
+    }
+  }
+}

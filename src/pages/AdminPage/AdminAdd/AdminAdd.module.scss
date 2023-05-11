@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 60px 125px;
+
+  .title {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  .form {
+
+    &_container {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 16px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+
+      :not(:last-child) {
+        margin-bottom: 6px;
+      }
+
+      &_input {
+        padding: 10px 12px;
+        font-size: 12px;
+        border-radius: 10px;
+        background: #F6F6F6;
+        border: none;
+
+        &::placeholder {
+          color: #A2A2A2;
+        }
+      }
+
+      &_error {
+        font-size: 10px;
+        color: red;
+      }
+    }
+
+
+    .button {
+      width: 100%;
+      margin-top: 24px;
+
+      &_btn {
+        text-align: center;
+        width: 100%;
+        padding: 10px 70px;
+        background: #0D4EDB;
+        box-shadow: 0px 4px 12px rgba(11, 53, 145, 0.12);
+        border-radius: 10px;
+        font-size: 16px;
+        color: #FFFFFF;
+        line-height: 20px;
+        border: none;
+      }
+
+      :disabled {
+        opacity: 0.5;
+      }
+    }
+  }
+
+}
+.access {
+  float: left;
+
+  &_title {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+
+  &_container {
+    color: #000000;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 12px;
+
+    &_input {
+      width: 16px;
+      height: 16px;
+      margin-right: 4px;
+    }
+  }
+}

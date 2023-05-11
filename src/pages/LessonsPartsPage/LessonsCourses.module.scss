@@ -1,0 +1,168 @@
+.container {
+
+  &_func {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px 0px;
+
+    &_add {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      width: 350px;
+    }
+  }
+
+  &_navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-between;
+    width: max-content;
+
+    &_prev {
+      color: #A2A2A2;
+      cursor: pointer;
+    }
+
+    &_arrow {
+      width: 16px;
+    }
+
+    &__active {
+      cursor: pointer;
+    }
+  }
+
+  .addLesson {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+
+    &_btn {
+      cursor: pointer;
+      margin-right: 12px;
+    }
+  }
+
+  &_content {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 24px 20px 40px 20px;
+    width: 820px;
+    margin-bottom: 24px;
+  }
+
+  .lesson {
+    width: 820px;
+
+    &_container {
+      padding: 24px 20px;
+      background: #FFFFFF;
+      border-radius: 10px;
+      margin-bottom: 24px;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+
+      &_names {
+
+        &__id {
+          font-size: 20px;
+        }
+
+        &__title {
+          color: #A2A2A2;
+          margin-top: 16px;
+        }
+      }
+
+      &_func {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 52px;
+
+        &__img {
+          width: 20px;
+          height: 20px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    &_button {
+      width: 260px;
+      padding: 10px 70px;
+      background: #0D4EDB;
+      box-shadow: 0px 4px 12px rgba(11, 53, 145, 0.12);
+      border-radius: 10px;
+      border: none;
+      color: #FFFFFF;
+      font-weight: 500;
+      cursor: pointer;
+
+      &:disabled {
+        opacity: 0.5;
+        cursor: default;
+      }
+    }
+
+    &_container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      &_btn {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 40px;
+        font-size: 18px;
+
+        &__add {
+          cursor: pointer;
+          border: none;
+          background-color: #FFFFFF;
+          font-size: 18px;
+          margin-right: 16px;
+
+          &:disabled {
+            opacity: 0.5;
+            cursor: default;
+          }
+        }
+      }
+    }
+  }
+}
+
+.addQuiz_btn {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  margin-right: 12px;
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: unset;
+  }
+}

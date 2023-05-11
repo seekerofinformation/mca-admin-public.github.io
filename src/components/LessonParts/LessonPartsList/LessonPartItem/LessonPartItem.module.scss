@@ -1,0 +1,25 @@
+.theme_container_func {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 52px;
+
+  &__img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+}
+
+.lessonPartWrapper {
+  padding: 24px 20px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 800px;
+}

@@ -1,0 +1,57 @@
+.edit_language_group .edit_language_group__input:checked + .edit_language_group__icon {
+  background-color: #FFFFFF;
+
+  &::after {
+    content: '';
+    background-color: #1C1C1C;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+  }
+}
+
+.edit_language {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 270px;
+
+  &_group {
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    display: flex;
+
+    &__input {
+      width: 0;
+      height: 0;
+      opacity: 0;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    &__icon {
+      background-color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      border: 1px solid #1C1C1C;
+      margin-right: 6px;
+
+
+      &::after {
+        content: '';
+      }
+    }
+  }
+}
